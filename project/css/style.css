@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px|Ubuntu');
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.home{
+    height: 100vh;
+}
+.logo{
+    height: 50vh;
+	margin-top :15vh
+}
+.quote{
+    color : #3498db;
+    font-size : 3em;
+}
+.registerBtn{
+    margin-top: 4vh;
+}
+.arrow{
+    color: #3498db;
+    font-size: 1em;
+    margin-top: 5vh;
+}
+.course{
+    min-height: 100vh;
+}
+div.course > div:nth-child(1) > div > h3{
+    font-size: 2.8em;
+}
+.card{
+    border : none;
+}
+.course>div.row>div.col-sm-4>div.card>div.card-body>div.icon>img{
+    padding-bottom: 20px;
+    width: 50%;
+}
+.about{
+    min-height: 100vh;
+    font-size: 1.3em;
+}
+section:nth-child(4) > div.about > div:nth-child(1) > div > h3{
+    font-size: 2.0em;
+}
+div.about > div:nth-child(2) > div:nth-child(2) > p{
+    margin-top: 5vh;
+}
+#demo > div > div > div > div > div > center{
+    font-size: 0.9em;
+}
+.card.c{
+    border : 1px solid lightgrey;
+    margin-bottom: 3vh;
+}
+body > div.container.contact.text-center > div:nth-child(1) > div > h3{
+   margin-bottom: 10vh;
+}
+h3{
+    color: #3498db;
+}
+.fa{
+    color: #3498db;
+    font-size : 2.5em;
+    margin-bottom: 2vh;
+}
+.footer{
+    height: 5vh;
+    background: #3498db;
+    color: #FFF;
+}
+@media only screen and (max-width : 1200PX){
+
+}
+@media only screen and (max-width : 768px){
+    .quote{
+        font-size : 2em;
+    }
+    .logo{
+        height: 68vh;
+    }
+    .registerBtn{
+        margin-top: 3vh;
+    }
+}
+@media only screen and (max-width : 480px){
+    .quote{
+        font-size : 1.6em;
+    }
+    .logo{
+        height: 70vh;
+    }
+}
